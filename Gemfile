@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# Facebook authentication 
+gem 'omniauth-facebook'
+# Facebook API 
+gem "koala", "~> 1.10.0rc"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
